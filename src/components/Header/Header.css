@@ -1,0 +1,80 @@
+
+header {
+  height: 6rem;
+  padding: 0 6rem;
+  color: white;
+}
+
+.logo {
+  border: solid;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+.searchbox {
+  float: right;
+  margin: 2rem 0;
+}
+
+.searchbox input::placeholder {
+  color: white;
+}
+
+input[type=search]:hover {
+  cursor: pointer;
+}
+
+input[type=search] {
+  width: 2rem;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.search__menu {
+  position: absolute;
+  background-color: #f4f4f4;
+  z-index: 1;
+  width: 10rem;
+}
+
+.search__menu a {
+  text-decoration: none;
+}
+
+.search__menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.search__menu li {
+  border-bottom: solid 0.1rem gray;
+  list-style: none;
+}
+
+.search__menu a {
+  padding: 0.1rem;
+  display: inline-block;
+  vertical-align: middle;
+  color: gray;
+}
+
+.search__menu div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search__menu span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 7rem;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=search]:focus {
+  width: 10rem;
+  border: solid white 0.1rem;
+}

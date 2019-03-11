@@ -1,0 +1,7 @@
+.searchBox {
+  display:inline-block;
+}
+
+.searchBox input {
+  font-family: 'FontAwesome 5, Karla, sans-serif';
+}
